@@ -18,6 +18,7 @@ function populatePhotoList() {
                 image.src = photo.thumbnailUrl;
                 image.className = "card-img-top";
                 image.alt = "Photo";
+                image.loading="lazy";
 
                 // Create card body
                 const cardBody = document.createElement("div");
